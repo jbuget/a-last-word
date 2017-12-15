@@ -1,8 +1,8 @@
 {
-  "name": "a-last-word",
-  "version": "0.0.0",
+  "name": "bye-bye-octo",
+  "version": "1.0.0",
   "private": true,
-  "description": "Small description for a-last-word goes here",
+  "description": "A little application to say \"Bye, bye, OCTO!\"",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -13,7 +13,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember serve",
-    "test": "ember test"
+    "test": "ember test",
+    "deploy": "ember github-pages:commit --message \"Release into production\""
   },
   "devDependencies": {
     "bootstrap": "^4.0.0-beta.2",

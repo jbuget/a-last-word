@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div>
+    <p>Je ne pouvais décemment pas partir sans un petit pour chacun de vous (en espérant que je n'ai oublié personne).</p>
+  </div>
+
+  <form style="margin-top: 40px;">
+    {{input type="text" class="form-control" value=username placeholder="Trigramme ou quadrigramme" autofocus="autofocus"}}
+  </form>
+
+  {{#if message}}
+    <div style="margin-top: 40px;">
+      <blockquote class="blockquote" style="border-left: 5px solid #EEE; padding-left: 20px;">
+        {{message}}
+      </blockquote>
+    </div>
+  {{/if}}
+</div>
